@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>anime</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c1ff7be17d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header" style="background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('sample\ images/anime2.jfif') ;">
+        <nav>
+            <h1 style="color: aliceblue ;font-size: 70px;">ANIME</h1>
+            <div class="navlinks" id="Navlinks">
+                <i id="toggle" class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="anime.html">WATCH</a></li>
+                    <li><a href="buy.html"target="blank">BUY</a></li>
+                </ul>
+            </div>
+            <i id="toggle" class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="textbox">
+            
+            <p style="font-size: 18px;">Anime is a Japanese term for hand-drawn or computer animation. The word is the abbreviated pronunciation of "animation" in Japanese, where this term references all animation.
+                <br>
+
+                Anime consists of an ideal story-telling mechanism, combining graphic art, characterization, cinematography, and other forms of imaginative and individualistic techniques.</p>
+            
+        </div>
+         
+    </section >
+    <section class="explore">
+        <h1>Watch your favrouite anime series </h1>
+        <p>If you want to watch anime instead of reading manga you can choose from here </p>
+        <div class="anime">
+            <div class="asset">
+                <img src="sample images/naruto poster.jfif" width="50%">
+                <div class="layer2">
+                    <a href="https://gogoanime.is/naruto-677"target="blank">NARUTO </a>
+                </div>
+            </div>
+            <div class="asset">
+                <img src="sample images/aot poster.jfif" width="50%">
+                <div class="layer2">
+                    <a href="https://gogoanime.is/attack-on-titan-112"target="blank">ATTACK ON TITAN</a>
+                </div>
+            </div>
+            <div class="asset">
+                <img src="sample images/jujutsu banner.jpg" width="50%">
+                <div class="layer2">
+                    <a href="https://gogoanime.is/jujutsu-kaisen-tv-534"target="blank">JUJUTSU KAISEN</a>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="anime">
+            <div class="asset">
+                <img src="sample images/demon slayer poster.jfif" width="50%">
+                <div class="layer2">
+                    <a href="https://gogoanime.is/demon-slayer-kimetsu-no-yaiba-47"target="blank">DEMON SLAYER </a>
+                </div>
+            </div>
+            <div class="asset">
+                <img src="sample images/tokyo ghoul poster.jfif" width="50%">
+                <div class="layer2">
+                    <a href="https://gogoanime.is/tokyo-ghoul-790"target="blank">TOKYO GHOUL</a>
+                </div>
+            </div>
+            <div class="asset">
+                <img src="sample images/erased poster.jfif" width="50%">
+                <div class="layer2">
+                    <a href="https://gogoanime.is/erased-151" target="blank">ERASED</a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+    <script>
+        
+        var Navlinks = document.getElementById("Navlinks") ;
+        function showmenu(){
+            Navlinks.style.right="0";
+        }
+        function hidemenu(){
+            Navlinks.style.right="-200px";
+        }
+    </script>
+    </body>
+    </html>

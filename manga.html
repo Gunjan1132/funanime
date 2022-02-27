@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>manga</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c1ff7be17d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="mangapage">
+        <nav>
+            <h1>MANGA</h1>
+            <div class="navlinks" id="Navlinks">
+                <i id="toggle" class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="anime.html">WATCH</a></li>
+                    <li><a href="buy.html"target="blank">BUY</a></li>
+                </ul>
+            </div>
+            <i id="toggle" class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="textbox2">
+            
+            <p>Manga ( Japanese: 漫画 [maŋga]) are comics or graphic novels originating from Japan. Most manga conform to a style developed in Japan in the late 19th century, and the form has a long prehistory in earlier Japanese art. The term manga is used in Japan to refer to both comics and cartooning.</p>
+            <H1>Scroll to read your favrouite manga</H1>
+            
+        </div>
+         
+    </section >
+    <section class="explore">
+        <H1>FANTASY COMICS</H1>
+        <H5 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">These are the famous comics of drama , thriller,horror genres</H5>
+        <div class="anime">
+            <div class="asset">
+                <img src="sample images/naruto banner.jpg" width="50%">
+                <div class="layer2">
+                    <a href="https://w14.naruto-manga-read.com/" target="blank">NARUTO</a>
+                </div>
+                
+            </div>
+            
+            <div class="asset">
+                <img src="sample images/aot banner.jfif" width="50%">
+                <div class="layer2">
+                    <a href="https://ww7.readsnk.com/"target="blank">ATTACK ON TITAN</a>
+                </div>
+            </div>
+            <div class="asset">
+                <img src="sample images/jujutsu banner.jpg" width="50%">
+                <div class="layer2">
+                    <a href="https://ww1.readjujutsukaisen.com/?ref=w3use.com"target="blank">JUJUTSU KAISEN</a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+    <script>
+        
+        var Navlinks = document.getElementById("Navlinks") ;
+        function showmenu(){
+            Navlinks.style.right="0";
+        }
+        function hidemenu(){
+            Navlinks.style.right="-200px";
+        }
+    </script>
+   
+    
+</body>
+</html>
